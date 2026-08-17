@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: truthlens-api
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
